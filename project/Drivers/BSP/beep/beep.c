@@ -1,6 +1,6 @@
 #include "beep.h"
 
-void beep_gpio_init(void)
+void beep_gpio_init(void)//这个函数可以后续放到GPIO.C函数之中
 {
     GPIO_InitTypeDef beep_InitStructure;
     BEEP_RCC_CLK_ENABLE();
