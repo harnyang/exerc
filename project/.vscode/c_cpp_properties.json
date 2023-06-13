@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "exercise",
+            "forcedInclude": [
+                "D:/soft/keil_5/install/ARM/ARMCC/include/stdint.h"
+            ],
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:\\soft\\keil_5\\install\\ARM\\ARMCC\\Include",
+                "D:\\soft\\keil_5\\install\\ARM\\CMSIS\\5.8.0\\CMSIS\\Core\\Include",
+                "${workspaceFolder}\\Drivers\\CMSIS\\Device\\ST\\STM32F1xx\\Include",
+                "${workspaceFolder}\\Drivers\\STM32F1xx_HAL_Driver\\Inc",
+                "${workspaceFolder}\\Drivers\\CMSIS\\Include",
+                "${workspaceFolder}\\Drivers",
+                "${workspaceFolder}\\Drivers\\SYSTEM\\sys",
+                "${workspaceFolder}\\User"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "__CC_ARM",
+                "STM32F103xE",
+                "USE_HAL_DRIVER"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "gnu++14"
+        }
+    ],
+    "version": 4
+}

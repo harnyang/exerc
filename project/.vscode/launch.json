@@ -1,0 +1,19 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [{
+        "name": "Debug", 
+        "type": "cppdbg", 
+        "request": "launch",
+        "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",//这里是当前打开文件的目录
+        "args": [],
+        "stopAtEntry": false, 
+        "cwd": "${fileDirname}", 
+        "environment": [], 
+        "externalConsole": false,
+        "internalConsoleOptions": "neverOpen",
+        "MIMode": "gdb", 
+        "miDebuggerPath": "D:\\soft\\software\\Mingw64\\bin\\gdb.exe", 
+        "preLaunchTask": "build" 
+    }]
+}

@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "usart.h": "c",
+        "delay.h": "c",
+        "beep.h": "c",
+        "sys.h": "c",
+        "stm32f1xx.h": "c",
+        "led.h": "c",
+        "buttom.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
