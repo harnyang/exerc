@@ -428,6 +428,11 @@
               <FileType>1</FileType>
               <FilePath>..\..\Drivers\SYSTEM\usart\usart.c</FilePath>
             </File>
+            <File>
+              <FileName>usart_priv.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Drivers\SYSTEM\usart_priv\usart_priv.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

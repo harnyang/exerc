@@ -6,7 +6,8 @@
         "sys.h": "c",
         "stm32f1xx.h": "c",
         "led.h": "c",
-        "buttom.h": "c"
+        "buttom.h": "c",
+        "usart_priv.h": "c"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }

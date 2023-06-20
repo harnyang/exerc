@@ -27,9 +27,10 @@
 
 } while (0);
 #define KEY0_IRQn EXTI4_IRQn
+#define KEY0_IRQHandler()  EXTI4_IRQHandler()
 
 
-void EXTI4_IRQHandler(void);
+void KEY0_IRQHandler(void);
 
 void Buttom_Init(void);
 void Buttom_GPIO_Init(void);

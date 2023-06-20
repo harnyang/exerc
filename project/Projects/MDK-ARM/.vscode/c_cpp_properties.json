@@ -16,6 +16,7 @@
                 "d:\\soft\\private\\project\\Drivers\\SYSTEM\\delay",
                 "d:\\soft\\private\\project\\Drivers\\SYSTEM\\sys",
                 "d:\\soft\\private\\project\\Drivers\\SYSTEM\\usart",
+                "d:\\soft\\private\\project\\Drivers\\SYSTEM\\usart_priv",
                 "d:\\soft\\private\\project\\Drivers\\STM32F1xx_HAL_Driver\\Src",
                 "d:\\soft\\private\\project\\Drivers\\BSP\\led",
                 "d:\\soft\\private\\project\\Drivers\\BSP\\beep",

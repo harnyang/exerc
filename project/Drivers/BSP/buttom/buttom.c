@@ -34,12 +34,12 @@ void Buttom_Init(void)
     Buttom_GPIO_Init();
     #endif
 }
-void EXTI4_IRQHandler(void)
+void KEY0_IRQHandler (void)//事件中断处理函数被宏重定义
 {
-    if (__HAL_GPIO_EXTI_GET_IT(KEY0_GPIO_PIN)!=0)
+    if (__HAL_GPIO_EXTI_GET_IT(KEY0_GPIO_PIN)!=0)//获取中断挂起寄存器状态
     {
         LED2(0);
-        __HAL_GPIO_EXTI_CLEAR_IT(KEY0_GPIO_PIN);
+        __HAL_GPIO_EXTI_CLEAR_IT(KEY0_GPIO_PIN);//清除中断挂起寄存器
     }
     
 }
